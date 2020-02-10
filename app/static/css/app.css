@@ -1,3 +1,47 @@
 body {
     padding-top: 5rem;
 }
+#top, #pic{
+    background-color: #149ea6;
+    text-align: center;
+}
+img {
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#bio{
+    color: #ded5c5;
+}
+.noborder, .noborder tr, .noborder th, .noborder td {
+    border: none; 
+}
+.noborder th{
+    color: #000000;
+    text-align: center;
+}
+.noborder td{
+    color: #ded5c5;
+}
+.noborder{
+    margin-left: auto;
+    margin-right: auto;
+}
+.noborder #hi{
+    visibility: hidden;
+}
+.button { 
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block main %}
+<img src="{{ url_for('static', filename='/static/tiffany18-452.jpg')}}" alt="Profile Picture" style="width:200px;height:200px;">
+
+<h1 id="top">Tiffany Garrick</h1>
+<p id="top">@poogiebear</p>
+<p id="top">St. Catherine, Jamaica</p>
+<p id="pic"> {{pic}} </p>
+<!--BIO INFORMATION-->
+<p id="bio">I am a smart, talented young woman whom has a passion for Information Technology and all that it offers. If interested, please follow and contact me.</p>
+<br>
+<table class="noborder">
+    <tr>
+        <th>25</th>
+        <th id="hi">hi</th>
+        <th>350</th>
+        <th id="hi">hi</th>
+        <th>500</th>
+        <th id="hi">hi</th>
+    </tr>
+    <tr>
+        <td>Posts</td>
+        <td id="hi">hi</td>
+        <td>Following</td>
+        <td id="hi">hi</td>
+        <td>Followers</td>
+        <td id="hi">hi</td>
+    </tr>
+</table><br><br>
+<button class="button">Follow</button>
+{% endblock %}
